@@ -6,11 +6,46 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXFileReference section */
+		93C95CA72B58C32F0064D6CF /* Factory.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Factory.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		93C95CA82B58C5300064D6CF /* Strategy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Strategy.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		93C95CA92B58C5B90064D6CF /* Observer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		93C95CAA2B58C5D70064D6CF /* Decorator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Decorator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		93C95CA02B58C3100064D6CF = {
 			isa = PBXGroup;
 			children = (
+				93C95CAE2B58C6080064D6CF /* Structural Pattern */,
+				93C95CAC2B58C6030064D6CF /* Behavioral Pattern */,
+				93C95CAB2B58C5DC0064D6CF /* Creational Parttern */,
 			);
+			sourceTree = "<group>";
+		};
+		93C95CAB2B58C5DC0064D6CF /* Creational Parttern */ = {
+			isa = PBXGroup;
+			children = (
+				93C95CA72B58C32F0064D6CF /* Factory.playground */,
+			);
+			path = "Creational Parttern";
+			sourceTree = "<group>";
+		};
+		93C95CAC2B58C6030064D6CF /* Behavioral Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				93C95CA82B58C5300064D6CF /* Strategy.playground */,
+				93C95CA92B58C5B90064D6CF /* Observer.playground */,
+			);
+			path = "Behavioral Pattern";
+			sourceTree = "<group>";
+		};
+		93C95CAE2B58C6080064D6CF /* Structural Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				93C95CAA2B58C5D70064D6CF /* Decorator.playground */,
+			);
+			path = "Structural Pattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
